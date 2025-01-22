@@ -4,11 +4,11 @@
 
    Adiciona el valor de dos operandos.
 
-```cplusplus
-int a = 10;
-int b = 5;
-int suma = a + b;
-cout << "Resultado de la suma es : " << suma << endl;
+```python
+a = 10
+b = 5
+suma = a + b
+print("Resultado de la suma es : " , suma)
 ```
 ___
 2. Resta **-**
