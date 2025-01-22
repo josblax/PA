@@ -14,3 +14,15 @@ Si lo corres por primera vez, selecciona el kernel para poder ejecutar instrucci
 
 ![image](https://github.com/user-attachments/assets/4f8ec94f-8c1f-4f96-baec-44a15679ec17)
 
+Una vez seleeccionado, quedarás en la interfase de edición para poder correr programas en Python.
+
+![image](https://github.com/user-attachments/assets/2dc2708b-8c37-47d0-bc60-ec830816e229)
+
+## Como ejecutar instrucciones en Jupyter.
+
+Jupyter notebooks se basa en celdas, que son pequeñas porciones de código y se ejecutan independientemente una de la otra, en la imagen abajo, se muestra la celda.
+
+![image](https://github.com/user-attachments/assets/94e1a02f-b51c-4560-96d3-2fe9df30e979)
+
+1. Dentro de cada celda introduce el código de tus ejercicios o programas y ejecuta seleccionando el icono de ejecución.
+2. 
