@@ -64,6 +64,7 @@ ___
 En python las variables son simbolicas, es decir en realidad son objetos referenciados en memoria. La asociación a un tipo es dinámica o interpretada, es decir, no necesitas asociar un tipo de variable.
 
 Tipos de variables comúnes en python:
+___
 
 #### Numérico
 
@@ -76,12 +77,78 @@ Ejemplos:
 # numerico entero
 edad = 22
 print(edad)
+print(type(edad))
 
 # numerico fraccionario
 peso = 34.5
 print(peso)
+print(type(peso))
 
 # numerico complejo
-y = x + 3i
+y = 2 + 3j
+print(y)
+print(type(y))
 ```
+___
+
+#### Textos
+
+Asignar valores alfanuméricos encerrados entre doble comillas " " o comilla simple ' ', sin mezclarlas.
+
+Ejemplos:
+
+```python
+
+# string
+saludo = 'Hola',' Buenos dias'
+print(saludo)
+print(type(saludo))
+```
+___
+
+#### boolean
+
+Asignar un valor True o False.
+
+Ejemplos:
+
+```python
+
+# boolean
+frio = True
+print(frio)
+print(type(frio))
+```
+___
+
+#### binarios
+
+Ejemplos:
+
+```python
+# Bytes 
+saludo = b'A'
+print(saludo)
+print(type(saludo))
+binary_string = bin(int.from_bytes(saludo, 'big'))[2:].zfill(8 * len(saludo))
+print(binary_string)
+
+# bytearray. Arreglo de bytes
+
+binario = bytearray(5)
+print(binario)
+print(type(binario))
+binary_string = bin(int.from_bytes(binario, 'big'))[2:].zfill(8 * len(binario))
+print(binary_string)
+```
+
+Ejercicio:
+
+> El dataset en la parte inferior  contiene el conjunto de datos de predicción de deserción de empleados con 10,000 filas de datos, que representan una variedad de empleados de diferentes departamentos y roles dentro de una organización. 
+
+> Incluye información demográfica, métricas relacionadas con el trabajo, evaluaciones de rendimiento y factores que influyen en la deserción (rotación) de los empleados.
+
+Cuantos bits se necesitan para convertir los datos de este dataset en registro binario?
+
+DataSet : https://www.kaggle.com/datasets/ziya07/employee-attrition-prediction-dataset
 
