@@ -15,7 +15,7 @@ ____
     ├── Nombres de Variables/Identificadores
     ├── Tipos de Variables
         ├── Númericas. 
-        ├── Booleanos. {true, false}
+        ├── Booleanos. [True, False]
         ├── Textos y caracteres
         ├── Contenedores
             ├── Biblioteca Numpy 
