@@ -25,4 +25,7 @@ Ejemplo:
 ```python
 # Escriba la instrucción print(), dentro de esta escriba en comillas dobles o simples Hola Mundo.
 print("Hola # como estas")
+
+# Uso de separador
+print("Hola", "Mundo!")
 ```
