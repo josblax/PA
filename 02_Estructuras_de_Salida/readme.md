@@ -19,3 +19,10 @@ Parámetros:
 * end: Caracteres de control para denotar una nueva linea. Por defecto es un salto de línea ('\n').
 * file: Objeto de archivo donde se enviará la salida. Por defecto es sys.stdout (la pantalla).
 * flush: Si es True, fuerza el vaciado del buffer de salida. Por defecto es False.
+
+Ejemplo:
+
+```python
+# Escriba la instrucción print(), dentro de esta escriba en comillas dobles o simples Hola Mundo.
+print("Hola # como estas")
+```
