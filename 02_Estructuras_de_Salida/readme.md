@@ -8,7 +8,7 @@ Sintaxis
 
 ```
 
-print(object(s), sep=separator, end=end, file=file, flush=flush)
+print(objeto(s), sep=separador, final=end, archivo=file, limpiar=flush)
 
 ```
 
