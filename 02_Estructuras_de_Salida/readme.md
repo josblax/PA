@@ -152,3 +152,19 @@ Cuantos bits se necesitan para convertir los datos de este dataset en registro b
 
 DataSet : https://www.kaggle.com/datasets/ziya07/employee-attrition-prediction-dataset
 
+
+
+```python
+# memory view
+
+vista = memoryview(bytes(5))
+print(vista)
+print(type(vista))
+
+# None. Ausencia de un valor o valor nulo.
+raiz = None
+print(raiz)
+print(type(raiz))
+```
+
+___
