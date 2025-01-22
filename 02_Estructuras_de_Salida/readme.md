@@ -57,3 +57,31 @@ Los nombres de variables deben de reflejar el uso para el que es usado la variab
 4. No uses mayúsculas y minúsculas, asumiendo que es la misma variable.
 
 ___
+
+
+### Tipos de variables
+
+En python las variables son simbolicas, es decir en realidad son objetos referenciados en memoria. La asociación a un tipo es dinámica o interpretada, es decir, no necesitas asociar un tipo de variable.
+
+Tipos de variables comúnes en python:
+
+#### Numérico
+
+Asignar usando el operador de asignación "=" un numero a una variable. Este numero puede ser entero, fraccionario o complejo.
+
+Ejemplos:
+
+```python
+
+# numerico entero
+edad = 22
+print(edad)
+
+# numerico fraccionario
+peso = 34.5
+print(peso)
+
+# numerico complejo
+y = x + 3i
+```
+
