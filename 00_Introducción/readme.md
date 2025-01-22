@@ -25,4 +25,11 @@ Jupyter notebooks se basa en celdas, que son pequeñas porciones de código y se
 ![image](https://github.com/user-attachments/assets/94e1a02f-b51c-4560-96d3-2fe9df30e979)
 
 1. Dentro de cada celda introduce el código de tus ejercicios o programas y ejecuta seleccionando el icono de ejecución.
-2. 
+2. Existen tres tipos de celdas:
+   * Celdas de Código (code). Aquí se introduce el código python
+   * Celdas MarkDown (markdown). Son celdas donde se puede agregar documentación con el formato y sintaxis MarkDown
+   * Celdas Raw. Son celdas que no tienen ningún tipo de proceso y se anexa tal cuál se escriba, sin ningún tipo de formato.
+
+  ![image](https://github.com/user-attachments/assets/35bf9060-3361-4853-8d20-80c110e1b04d)
+
+> Jupyter se ejecuta en tu web browser, el que tengas instalado, existen ocasiones que pierde conexión con el kernel, por lo que debes de reiniciar el kernel en la opcion "kernel"
