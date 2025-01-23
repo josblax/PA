@@ -140,6 +140,11 @@ print(binario)
 print(type(binario))
 binary_string = bin(int.from_bytes(binario, 'big'))[2:].zfill(8 * len(binario))
 print(binary_string)
+
+# bin()
+number = 1000
+binary_representation = bin(number)[2:]
+print(binary_representation)
 ```
 
 Ejercicio:
