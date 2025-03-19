@@ -53,3 +53,22 @@ La clase Enemigo también hereda de Personaje y actúa como la base para otros t
 Sub-Subclases Específicas: Dragon y Ogro
 
 Estas Sub-subclases heredan de Enemigo y sobrescriben el método atacar para implementar comportamientos únicos de ataque (por ejemplo, lanzar fuego o golpear con fuerza).
+
+# Polimorfismo
+
+El polimorfismo permite utilizar un método de manera genérica en un objeto sin importar su clase exacta. En otras palabras, el comportamiento de un método dependerá del objeto que lo implemente.
+
+En el ejercicio:
+
+## Método atacar:
+
+En la clase base Enemigo, atacar se define como un método genérico que las sub-subclases (Dragon y Ogro) sobrescriben.
+
+Cuando llamas al método atacar en un objeto, el comportamiento se ajusta según la clase del objeto específico.
+
+Ejemplo práctico en el código:
+
+```Python
+dragon.atacar(heroe)  # Ejecuta el método 'atacar' de la clase Dragon
+ogro.atacar(heroe)    # Ejecuta el método 'atacar' de la clase Ogro
+```
