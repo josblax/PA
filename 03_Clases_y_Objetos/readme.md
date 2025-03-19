@@ -72,3 +72,44 @@ Ejemplo práctico en el código:
 dragon.atacar(heroe)  # Ejecuta el método 'atacar' de la clase Dragon
 ogro.atacar(heroe)    # Ejecuta el método 'atacar' de la clase Ogro
 ```
+
+Aunque se usa el mismo método atacar, la implementación difiere: el Dragon lanza fuego, mientras que el Ogro golpea con fuerza. Esto es polimorfismo en acción.
+
+Reutilización de recibir_dano:
+
+> Todas las clases (Heroe, Dragon, Ogro) utilizan el método recibir_dano definido en la clase base Personaje. No es necesario redefinirlo porque su funcionalidad es compartida por todos los tipos de personajes.
+
+# Resumiendo
+
+## Herencia:
+
+Facilita la reutilización de atributos y métodos comunes en las subclases (Heroe, Enemigo, Dragon, Ogro) a partir de la clase base Personaje.
+
+Permite construir una jerarquía lógica de clases.
+
+## Polimorfismo:
+
+Los métodos como atacar funcionan de manera diferente según la clase del objeto que los implemente, lo que hace que el código sea flexible y extensible.
+
+Permite interactuar con objetos de diferentes clases (Dragon, Ogro, etc.) utilizando una misma interfaz genérica.
+
+# Extendiendo el juego
+
+## Método ko() en la clase Personaje:
+
+Marca a un personaje como derrotado si su salud llega a cero o menos. Esto se utiliza para todos los personajes (héroes y enemigos).
+
+## Atributo salud_inicial en Enemigo:
+
+Almacena la salud inicial del enemigo para usarla al otorgar experiencia al héroe.
+
+## Sistema de nivel del héroe:
+
+El héroe gana experiencia basada en la salud inicial del enemigo derrotado.
+
+Al acumular 100 puntos de experiencia, sube de nivel y el exceso de experiencia se transfiere al siguiente nivel.
+
+## Mensajes adicionales:
+
+Mensajes descriptivos para indicar cuando un enemigo es derrotado y cuando el héroe sube de nivel.
+
