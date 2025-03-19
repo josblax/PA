@@ -1,6 +1,18 @@
 # Clases y objetos
 
 
+## Mapa de clases
+
+```
+Personaje
+│
+├── Heroe
+└── Enemigo
+    ├── Dragon
+    └── Ogro
+```
+
+
 ## Clase Personaje:
 
  Sirve como la clase base que define atributos como el nombre y la salud, y un método para recibir daño (recibir_dano).
